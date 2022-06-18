@@ -1,5 +1,6 @@
 package golang_module_ex
 
 func SayHello() string {
-	return "Hello tamvan raka"
+	var test string = "Raka banget ni dari another go"
+	return "Hello tamvan raka " + test
 }
